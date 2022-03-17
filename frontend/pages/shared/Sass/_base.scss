@@ -1,9 +1,10 @@
 // The main colors we are gonna use in our website
-$colorLighter:#fafafa !default;
-$colorLight: #e8a49c !default;
-$colorMain:#F04393 !default;
-$colorDark:#240e8b !default; 
-$colorDarker:#3183B5 !default;
+$colorLight:#fafafe !default;
+$colorGray: #e6eefa !default;
+$colorLightBlue:#51A6DD !default;
+$colorBlue:#005D93 !default;
+$colorOrange:#ff7f22 !default;
+$colorDark:#030c17 !default; 
 
 // Base properties to give our website more uniformity
 $base-spacing-unit: 24px !default;
@@ -30,4 +31,37 @@ $font-largest: $base-font-size * 3 !default;
 
 
 // We can add more things to this file, like base styles for buttons,links and other things
+
+
+// Default properties for the whole website
+html{
+    // Default background color 
+    background-color: $colorLight;
+
+    // Default foreground color
+    color: $colorDark;
+}
+
+*{
+    // Remove all the default margins and padding added by the browser
+    margin: 0px;
+    padding: 0px;
+
+    // Give a default font TODO: change it to poppins
+    font-family: sans-serif;
+
+}
+
+
+// Default link style
+a{
+    transition: ease-in 200ms;
+    color: $colorOrange;
+    text-decoration: none;
+    
+    &:hover,&:focus{
+        color: $colorLightBlue;
+    }
+    
+}
 
