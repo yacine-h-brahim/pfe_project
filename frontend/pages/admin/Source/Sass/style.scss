@@ -15,12 +15,15 @@
 
 	// The title of the page
 	h1{
-		margin-bottom: $spacing-largest;
-		border-bottom: 1px solid $colorDark;
-		padding-bottom: $spacing-small;
-		display: inline-block;
-		width: 100%;
+		opacity: 100%;
 		font-weight: 500;
+		div{
+			border-bottom: 2px solid $colorDark;
+			margin-bottom: $spacing-largest;		
+			padding-bottom: $spacing-small;
+			width: 100%;
+			opacity: 20%;
+		}
 	}
 
 	// Table styles

@@ -55,7 +55,7 @@
 				// Button properties
 				background-color: $colorLight;
 				border: 2px solid $colorLightBlue;
-				color: $colorDark;
+				color: $colorLightBlue;
 				padding: $spacing-smaller $spacing-large;
 				margin: $spacing-small $spacing-normal;
 				border-radius: $spacing-small;
@@ -63,6 +63,7 @@
 				// Hover properties
 				&:hover{
 					border: 2px solid $colorOrange;
+					color: $colorOrange;
 				}
 
 			}
