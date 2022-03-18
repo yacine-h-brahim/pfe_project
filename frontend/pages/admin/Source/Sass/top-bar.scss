@@ -35,7 +35,7 @@
 
 				// Set the hover style
 				&:hover{
-					color: $colorBlue;
+					color: $colorLightBlue;
 				}
 			}	
 	
@@ -78,11 +78,12 @@
 		}
 
 		// Right align the select boxes and logout button
-		:nth-child(6){			
+		:nth-child(7){			
 			text-align: right;
 			margin-left: auto;
 		}
-
+		
+		// The line between the logo and the other links
 		li:nth-child(2){
 			width: 3px;
 			background-color: $colorDark;

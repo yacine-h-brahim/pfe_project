@@ -23,30 +23,72 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><a href="/addStudents">plus</a></td>
-    </tr>
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><a href="/addStudents">plus</a></td>
-    </tr>
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><a href="/addStudents">plus</a></td>
-    </tr>
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><a href="/addStudents">plus</a></td>
+        <td><button>plus</button></td>
     </tr>
     
+    <tr>
+        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
+        <td>mohammed, ali</td>
+        <td><button >accepter<span>&check;</span></button></td>
+        <td><button >rejeter<span>x</span></button></td>
+        <td><button>plus</button></td>
+    </tr>
+    
+    <tr>
+        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
+        <td>mohammed, ali</td>
+        <td><button >accepter<span>&check;</span></button></td>
+        <td><button >rejeter<span>x</span></button></td>
+        <td><button>plus</button></td>
+    </tr>
+    
+    <tr>
+        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
+        <td>mohammed, ali</td>
+        <td><button >accepter<span>&check;</span></button></td>
+        <td><button >rejeter<span>x</span></button></td>
+        <td><button>plus</button></td>
+    </tr>
+    
+    <tr>
+        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
+        <td>mohammed, ali</td>
+        <td><button >accepter<span>&check;</span></button></td>
+        <td><button >rejeter<span>x</span></button></td>
+        <td><button>plus</button></td>
+    </tr>
+    
+    <tr>
+        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
+        <td>mohammed, ali</td>
+        <td><button >accepter<span>&check;</span></button></td>
+        <td><button >rejeter<span>x</span></button></td>
+        <td><button>plus</button></td>
+    </tr>
+    
+    <tr>
+        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
+        <td>mohammed, ali</td>
+        <td><button >accepter<span>&check;</span></button></td>
+        <td><button >rejeter<span>x</span></button></td>
+        <td><button>plus</button></td>
+    </tr>
+    
+    <tr>
+        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
+        <td>mohammed, ali</td>
+        <td><button >accepter<span>&check;</span></button></td>
+        <td><button >rejeter<span>x</span></button></td>
+        <td><button>plus</button></td>
+    </tr>
+    
+    <tr>
+        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
+        <td>mohammed, ali</td>
+        <td><button >accepter<span>&check;</span></button></td>
+        <td><button >rejeter<span>x</span></button></td>
+        <td><button>plus</button></td>
+    </tr>    
 </div>
 
 
