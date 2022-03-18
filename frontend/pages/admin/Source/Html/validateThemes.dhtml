@@ -1,5 +1,11 @@
 <!--@ include header @-->
 
+<div class="popup-container">
+    <div>
+        <button class="close">close popup</button>
+    </div>
+</div>
+
 <div class="page-container">
 <h1>page de validation de themes<div></div></h1>
 
