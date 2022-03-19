@@ -14,21 +14,22 @@
             <!-- This div is used to make a separator between the logo and the page links -->
             <li><div></div></li>
             <li>
+                <select id="users">
+                    <option value="etudiant">etudiant</option>
+                    <option value="enseignant">enseignant</option>
+                    <option value="entreprise">entreprise</option>
+                </select>
+            </li>
+            <li><a href="/validateThemes">Themes</a></li>
+            <li><a href="/projects">Projets</a></li>
+            <li><a href="/soutenance">Soutenance</a></li>
+            <li>
                 <select name="year">
                     <option value="year-1">1 ere annee</option>
                     <option value="year-2">2 eme annee</option>
                     <option value="year-3">3 eme annee</option>
                     <option value="year-4">4 eme annee</option>
                     <option value="year-5">5 eme annee</option>
-                </select>
-            </li><li><a href="/validateThemes">Themes</a></li>
-            <li><a href="/projects">Projets</a></li>
-            <li><a href="/soutenance">Soutenance</a></li>
-            <li>
-                <select>
-                    <option value="etudiant">etudiant</option>
-                    <option value="enseignant">enseignant</option>
-                    <option value="entreprise">entreprise</option>
                 </select>
             </li>
             <li><button class="butto">Deconnexion</button></li>

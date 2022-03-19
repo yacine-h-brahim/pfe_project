@@ -1,12 +1,11 @@
 @import "../../../shared/Sass/base";
 
- 
-// Page styles
+// Page styles 
 .page-container{
 	// Make the page centered 
 	margin-left: auto;
 	margin-right: auto;
-
+	  
 	// Give it a maximum width
 	max-width: $spacing-largest*16;
 
@@ -15,38 +14,38 @@
 
 	// The title of the page
 	h1{
-		opacity: 100%;
 		font-weight: 500;
 		div{
-			border-bottom: 2px solid $colorDark;
+			border-bottom: 2px solid $colorGray;
 			margin-bottom: $spacing-largest;		
 			padding-bottom: $spacing-small;
 			width: 100%;
-			opacity: 20%;
 		}
 	}
 
 	// Table styles
 	table{
+
 		// Make it take full width
 		width: 100%;
 
 		// Remove the separation between the cells
 		border-spacing: 0px;
 
+		// Give it a border
+		border: 2px solid $colorGray;
+		border-top-left-radius: $spacing-small;
+		border-top-right-radius: $spacing-small;
+
 		// Table cells, and header styles
 		td,th{
 			padding: $spacing-smaller $spacing-small;
-		}
-
-		// Table rows
-		tr:nth-child(even){
-			background-color: $colorGray;
+			border-bottom: 1px solid $colorGray;
 		}
 
 		// Table header
 		th{
-			background-color: $colorBlue;
+			background-color: $colorGray;
 			color: $colorLight;
 			padding: $spacing-small;
 		}
@@ -106,7 +105,6 @@
 					color:red;
 				}
 			}
-
 			td{
 				// Style of the accept and reject buttons
 				button{
@@ -119,9 +117,7 @@
 					}
 					font-size: $font-normal;
 				}
-			}
-
-
+			} 
 		}
 
 		// Give the table a border radius		

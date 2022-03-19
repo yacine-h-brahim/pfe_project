@@ -2,9 +2,8 @@
 
 // Top bar styles
 .top-bar{
-
 	// The bottom line with a drop shadow
-	box-shadow: 0px 0px $spacing-smaller 0px $colorDark;
+	box-shadow: 0px 0px $spacing-smaller 0px $colorGray;
 	
 	ul {
 		// Make the list items display horizontally
@@ -37,8 +36,8 @@
 				&:hover{
 					color: $colorLightBlue;
 				}
-			}	
-	
+			}
+			 
 			// Style the drop menu 
 			select{
 				background-color: $colorLight;
@@ -54,8 +53,8 @@
 
 				// Button properties
 				background-color: $colorLight;
-				border: 2px solid $colorLightBlue;
-				color: $colorLightBlue;
+				border: 2px solid $colorBlue;
+				color: $colorBlue;
 				padding: $spacing-smaller $spacing-large;
 				margin: $spacing-small $spacing-normal;
 				border-radius: $spacing-small;
@@ -86,9 +85,8 @@
 		// The line between the logo and the other links
 		li:nth-child(2){
 			width: 3px;
-			background-color: $colorDark;
+			background-color: $colorGray;
 			margin: $spacing-normal;
-			opacity: 20%;
 		}
 	}
 }

@@ -23,7 +23,7 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
+        <td><button>&gt;</button></td>
     </tr>
     
     <tr>
@@ -31,7 +31,7 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
+        <td><button>&gt;</button></td>
     </tr>
     
     <tr>
@@ -39,7 +39,7 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
+        <td><button>&gt;</button></td>
     </tr>
     
     <tr>
@@ -47,7 +47,7 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
+        <td><button>&gt;</button></td>
     </tr>
     
     <tr>
@@ -55,7 +55,7 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
+        <td><button>&gt;</button></td>
     </tr>
     
     <tr>
@@ -63,7 +63,7 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
+        <td><button>&gt;</button></td>
     </tr>
     
     <tr>
@@ -71,7 +71,7 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
+        <td><button>&gt;</button></td>
     </tr>
     
     <tr>
@@ -79,7 +79,7 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
+        <td><button>&gt;</button></td>
     </tr>
     
     <tr>
@@ -87,7 +87,7 @@
         <td>mohammed, ali</td>
         <td><button >accepter<span>&check;</span></button></td>
         <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
+        <td><button>&gt;</button></td>
     </tr>    
 </div>
 
