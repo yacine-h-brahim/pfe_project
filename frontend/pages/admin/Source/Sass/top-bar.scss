@@ -2,19 +2,20 @@
 
 // Top bar styles
 .top-bar{
-	// The bottom line with a drop shadow
-	box-shadow: 0px 0px $spacing-smaller 0px $colorGray;
 
+	// The bottom line with a drop shadow
+	box-shadow: 0px 0px $spacing-smaller 0px $colorDark;
+	
 	ul {
 		// Make the list items display horizontally
 		display: flex;
 		width: 100%;
-
+		
 		align-content: space-between;
 		li{
 			// Remove the default style
 			list-style-type: none;
-
+		
 			*{
 				// Display block so the top and bottom margin and padding work
 				display: block;
@@ -36,72 +37,62 @@
 				&:hover{
 					color: $colorLightBlue;
 				}
-			}
-			
-			// Style the drop menu
+			}	
+	
+			// Style the drop menu 
 			select{
 				background-color: $colorLight;
 				border: none;
 				margin: $spacing-normal;
+						
 			}
 
 			// Style the logout button
 			button{
+				// Animation properties
+				transition: ease-in 200ms;
 
 				// Button properties
 				background-color: $colorLight;
 				border: 2px solid $colorLightBlue;
 				color: $colorLightBlue;
 				padding: $spacing-smaller $spacing-large;
-				margin: $spacing-smaller $spacing-normal;
+				margin: $spacing-small $spacing-normal;
 				border-radius: $spacing-small;
-
+				
 				// Hover properties
 				&:hover{
-					// Animate the text, border and box shadow
-					//         name       duration  type     delay  keep properties
-					animation: neon-color 0.2s      ease-in  0.4s   forwards, text-color 0.3s ease-in forwards;
+					border: 2px solid $colorOrange;
+					color: $colorOrange;
 				}
-			}
-		}
 
+			}
+		}	
+		
 		li{
 			svg{
 				height: $spacing-large;
 				width: auto;
-				padding: $spacing-small
+				padding: $spacing-small;
 			}
 		}
 
 		// Right align the select boxes and logout button
-		:nth-child(7){
+		:nth-child(7){			
 			text-align: right;
 			margin-left: auto;
 		}
-
+		
 		// The line between the logo and the other links
 		li:nth-child(2){
 			width: 3px;
-			background-color: $colorGray;
+			background-color: $colorDark;
 			margin: $spacing-normal;
+			opacity: 20%;
 		}
 	}
 }
 
-
-@keyframes neon-color {
-	100%{
-		border: 2px solid $colorOrange;
-		box-shadow: 0px 0px $spacing-normal $spacing-smaller rgba($colorOrange,0.2);
-	}
-
-}
-
-@keyframes text-color{
-	100%{
-		color: $colorOrange;
-	}
-}
 
 
 
