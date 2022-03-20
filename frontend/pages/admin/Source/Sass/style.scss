@@ -15,8 +15,11 @@
 	// The title of the page
 	h1{
 		font-weight: 500;
+		font-size: $font-larger;
+
+		// The line below the title
 		div{
-			border-bottom: 2px solid $colorGray;
+			border-bottom: 2px solid rgba($colorDark,0.2);
 			margin-bottom: $spacing-largest;		
 			padding-bottom: $spacing-small;
 			width: 100%;
@@ -33,19 +36,17 @@
 		border-spacing: 0px;
 
 		// Give it a border
-		border: 2px solid $colorGray;
 		border-top-left-radius: $spacing-small;
 		border-top-right-radius: $spacing-small;
 
 		// Table cells, and header styles
 		td,th{
 			padding: $spacing-smaller $spacing-small;
-			border-bottom: 1px solid $colorGray;
 		}
 
 		// Table header
 		th{
-			background-color: $colorGray;
+			background-color: $colorBlue;
 			color: $colorLight;
 			padding: $spacing-small;
 		}
@@ -54,8 +55,8 @@
 		tr{
 			*{
 				// Align content to the right
-				text-align:left;
-			}
+				text-align:left; 
+		 	}
 			td{
 				// Set the maximum width of a table cell
 				max-width: $spacing-largest*7;
@@ -118,6 +119,11 @@
 					font-size: $font-normal;
 				}
 			} 
+		}
+
+		// Color every other row differently
+		tr:nth-child(even){
+			background-color: $colorLightGray;
 		}
 
 		// Give the table a border radius		

@@ -1,22 +1,22 @@
 // The main colors we are gonna use in our website
-// old palette
-// $colorLight:#fafafe !default;
-// $colorGray: #e6eefa !default;
-// $colorLightBlue:#51A6DD !default;
-// $colorBlue:#005D93 !default;
-// $colorOrange:#ff7f22 !default;
-// $colorDark:#030c17 !default;
-
-
-
-
-$colorLight: #fefef2 !default;
+$colorLight:#fafafe !default;
+$colorLightGray: #e6eefa !default;
 $colorGray: #b1b2b2 !default;
-$colorLightBlue: #9bd7d1 !default;
-$colorBlue: #325d79 !default;
-$colorOrange: #f26622 !default;
-$colorLightOrange: #f9a26c !default;
-$colorDark: #030c17 !default;
+$colorLightBlue:#51A6DD !default;
+$colorBlue:#005D93 !default;
+$colorOrange:#ff7f22 !default;
+$colorDark:#030c17 !default;
+
+
+
+
+// $colorLight: #fefef2 !default;
+// $colorGray: #b1b2b2 !default;
+// $colorLightBlue: #9bd7d1 !default;
+// $colorBlue: #325d79 !default;
+// $colorOrange: #f26622 !default;
+// $colorLightOrange: #f9a26c !default;
+// $colorDark: #030c17 !default;
 
 
 
@@ -63,6 +63,10 @@ html{
 
     // Give a default font TODO: change it to poppins
     font-family: sans-serif;
+
+    // Give a default font size and font weight to all elements which will be equal
+    font-size: $font-normal;
+    font-weight: 500;
 
 }
 
