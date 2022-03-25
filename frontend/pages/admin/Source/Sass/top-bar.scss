@@ -62,8 +62,9 @@
 				
 				// Hover properties
 				&:hover{
-					border: 2px solid $colorOrange;
-					color: $colorOrange;
+					// Animate the button on hover
+					//         name        duration persistent delay
+					animation: neon-border 0.3s     forwards   0.5s, color-text 0.2s forwards;
 				}
 
 			}
@@ -96,7 +97,24 @@
 
 
 
+// Animate the border of the button and give it a glow
+@keyframes neon-border{
 
+	100%{
+		border: 2px solid $colorOrange;
+		box-shadow: 0px 0px $spacing-small $colorOrange;
+	}
+}
+
+
+// Animate the text of the button
+@keyframes color-text{
+	
+	100%{
+		color: $colorOrange;
+	}
+
+}
 
 
 

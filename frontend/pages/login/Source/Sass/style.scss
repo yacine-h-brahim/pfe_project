@@ -20,6 +20,7 @@ body {
 h1 {
 	font-weight: bold;
 	margin: $spacing-large;
+	font-size: $font-largest;
 }
 
 
@@ -39,16 +40,18 @@ a {
 }
 
 button {
-	border-radius: $spacing-normal;
-	border: 1px solid ;
+	border-radius: $spacing-smaller;
 	background-color: $colorBlue;
 	color: $colorLight;
-	font-size: $font-small;
-	font-weight: bold;
+	font-size: $font-normal;
+	font-weight: 600;
 	padding: $spacing-small $spacing-larger;
-	letter-spacing: 1px;
 	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+	transition: 0.2s ease-in;  
+	
+	&:hover{
+		background-color: $colorLightBlue;
+	}
 }
 
 form {
@@ -77,7 +80,7 @@ input {
   	box-shadow: 0 $spacing-small $spacing-normal rgba(0,0,0,0.25), 0 $spacing-smaller $spacing-smaller rgba(0,0,0,0.22);
 	position: relative;
 	overflow: hidden;
-	width: $spacing-largest*11;
+	width: $spacing-largest*12.5;
 	max-width: 100%;
 	min-height: $spacing-largest*7;
     
@@ -90,7 +93,7 @@ input {
 }
 
 .log-in-container {
-	left: 0;
+	left: 50%;
 	width: 50%;
 	z-index: 2;
 }
@@ -114,7 +117,7 @@ input {
 	background-position: 0 0;
 	color: $colorLight;
 	position: relative; 
-	left: -100%;
+	left: -200%;
 	height: 100%;
 	width: 200%;
 }
