@@ -1,37 +1,6 @@
-// The main colors we are gonna use in our website
-$colorLight:#fafafe !default;
-$colorGray: #e6eefa !default;
-$colorLightBlue:#51A6DD !default;
-$colorBlue:#005D93 !default;
-$colorOrange:#ff7f22 !default;
-$colorDark:#030c17 !default; 
-
-// Base properties to give our website more uniformity
-$base-spacing-unit: 24px !default;
-$base-font-size: 16px !default;
-$base-line-height: 1.6em !default;
-
-// Spacing sizes
-$spacing-smaller: $base-spacing-unit / 2.5 !default;
-$spacing-small: $base-spacing-unit / 1.5 !default;
-$spacing-normal: $base-spacing-unit !default;
-$spacing-large: $base-spacing-unit * 1.5 !default;
-$spacing-larger: $base-spacing-unit * 2 !default;
-$spacing-largest: $base-spacing-unit * 3 !default ;
-
-
-// Font sizes
-$font-smaller: $base-font-size / 1.6 !default;
-$font-small: $base-font-size / 1.3 !default;
-$font-normal: $base-font-size !default;
-$font-large: $base-font-size * 1.3 !default;
-$font-larger: $base-font-size * 2 !default;
-$font-largest: $base-font-size * 3 !default;
-
-
-
-// We can add more things to this file, like base styles for buttons,links and other things
-
+@import "./base.spacing";
+@import "./base.sizing";
+@import "./base.palette";
 
 // Default properties for the whole website
 html{
