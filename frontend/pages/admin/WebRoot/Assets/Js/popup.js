@@ -1,5 +1,4 @@
 
-
 OnLoad(() => {
     // Get the popup page
     var popup = document.querySelector(".popup-container");

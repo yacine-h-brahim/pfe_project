@@ -81,6 +81,11 @@
 				
 				// Style the title
 				h4{
+					// Hide text overflow 
+					overflow: hidden;
+					text-overflow: ellipsis;
+				
+					// Set the font size and weight
 					font-size: $font-large;
 					font-weight: 500;
 				}
@@ -92,8 +97,9 @@
 					padding: 0px;
 					background-color: transparent;
 					border: none;
-					&:hover{
+					&:focus, &:hover{
 						color: $colorLightBlue;
+						cursor:  pointer;
 					}
 					font-size: $font-normal;
 				}
@@ -145,54 +151,3 @@
 		
 	}
 }
-
-
-
-// Popup box
-.popup-container{
-	// Dark background for the whole page
-	background-color: rgba($colorDark,0.3);
-	height: 100vh;
-	margin-top: -$spacing-largest;
-	width: 100%;
-	display: flex;
-	z-index: 2;
-	justify-content: center;	
-	opacity: 0;
-	pointer-events: none;
-	position: fixed;
-	
-	// Content of the popup box
-	> div{
-		align-self: center;
-		background-color: $colorLight;		
-		height: $spacing-largest * 8;
-		width: $spacing-largest *12;
-		border-radius: $spacing-small;
-		display: flex;
-		justify-content: center;
-	}
-}
-
-
-
-// The next couple classes are just for test they might get modified in the futur
-.appear{
-	opacity: 1;
-	pointer-events: all;
-
-}
-
-.close{
-	align-self: center;
-	background-color: $colorOrange;
-	padding:$spacing-normal $spacing-large;
-	color: $colorLight;
-	border-radius: $spacing-normal;
-	border: none;
-
-}
-
-
-
-
