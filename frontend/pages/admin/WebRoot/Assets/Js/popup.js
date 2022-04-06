@@ -6,6 +6,9 @@ OnLoad(() => {
     // Get the button that will open up the popup
     var openButton = document.querySelector(".butto");
 
+    // Remove this after finishing making the page
+    popup.classList.add("appear");
+
     // Listen for it's click events
     openButton.addEventListener("click", () => {
         // Make the popup appear when clicked

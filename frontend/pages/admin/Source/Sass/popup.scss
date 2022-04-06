@@ -5,25 +5,47 @@
 .popup-container{
 	// Dark background for the whole page
 	background-color: rgba($colorDark,0.3);
-	height: 100vh;
-	margin-top: -$spacing-largest;
+
+	// Make the popup take full width
 	width: 100%;
-	display: flex;
+	
+	// Make it appear in top of the page
 	z-index: 2;
-	justify-content: center;	
-	opacity: 0;
+
+	// Make it invisible when hidden
+ 	opacity: 0;
+
+	// Make it non-clickable when hidden
 	pointer-events: none;
+	
+	// Give it a fixed position so it doesn't affect the rest of the page
 	position: fixed;
+	
+	// Make it start from the top
+	top: 0px;	
+
 	
 	// Content of the popup box
 	> div{
-		align-self: center;
-		background-color: $colorLight;		
-		height: $spacing-largest * 8;
+		// Give the content space left, right and top
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: $spacing-largest;
+		
+		// Give it a white background
+		background-color: $colorLight;
+		
+		// Give it a height and a width
+		min-height: $spacing-largest * 8;
 		width: $spacing-largest *12;
+
+		// Give it some border radius
 		border-radius: $spacing-small;
-		display: flex;
-		justify-content: center;
+
+		// Give it some padding
+		padding: $spacing-large;
+
+
 	}
 }
 
@@ -33,17 +55,15 @@
 .appear{
 	opacity: 1;
 	pointer-events: all;
-
+	position: absolute;
 }
 
 .close{
-	align-self: center;
 	background-color: $colorOrange;
 	padding:$spacing-normal $spacing-large;
 	color: $colorLight;
 	border-radius: $spacing-normal;
 	border: none;
-
 }
 
 

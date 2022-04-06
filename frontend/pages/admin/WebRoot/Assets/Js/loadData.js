@@ -128,6 +128,22 @@ OnLoad(() => {
     }
 
 
+    // Some styles for the popup page, cuz i couldn't do it in css
+    // Get the page
+    var page = document.querySelector(".page-container");
+
+    // Get the top bar
+    var topBar = document.querySelector(".top-bar");
+
+    // Get the popup page
+    var popup = document.querySelector(".popup-container");
+
+    // Get the height of the whole page
+    const fullHeight = page.clientHeight + topBar.clientHeight;
+
+    // Set the minimum height of the popup to be the same as the page
+    popup.style.minHeight = fullHeight + "px";
+
 });
 
 
