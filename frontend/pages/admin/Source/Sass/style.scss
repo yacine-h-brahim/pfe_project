@@ -149,5 +149,55 @@
 			}
 		}
 		
+
 	}
+	.ajouterE{
+		   text-align: right;
+		}
+		button.AjouterE{
+		    // Animation properties
+		    transition: ease-in 200ms;
+		
+		    // Button properties
+		    background-color: $colorLight;
+		    border: 2px solid $colorLightBlue;
+		    color: $colorLightBlue;
+		    padding: $spacing-smaller $spacing-large;
+		    margin: $spacing-small $spacing-normal;
+		    border-radius: $spacing-small;
+		    display: inline-block;
+		   
+		    // Hover properties
+		    &:hover{
+		        // Animate the button on hover
+		        //         name        duration persistent delay
+		        animation: neon-border 0.3s     forwards   0.5s, color-text 0.2s forwards;
+		    }
+		
+		}
+		
+		button.importer{
+		    // Animation properties
+		    transition: ease-in 200ms;
+		
+		    // Button properties
+		    background-color: $colorBlue;
+		    border: 2px solid $colorBlue;
+		    color: $colorLight;
+		    padding: $spacing-smaller $spacing-large;
+		    margin: $spacing-small $spacing-normal;
+		    border-radius: $spacing-small;
+		    display: inline-block;
+		   
+		    // Hover properties
+		    &:hover{
+		        // Animate the button on hover
+		        //         name        duration persistent delay
+		        animation: neon-border 0.3s     forwards   0.5s, color-text 0.2s forwards;
+		    }
+		
+			
+		}
+	
 }
+
