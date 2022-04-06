@@ -5,6 +5,8 @@ $colorLightBlue:#51A6DD !default;
 $colorBlue:#005D93 !default;
 $colorOrange:#ff7f22 !default;
 $colorDark:#030c17 !default; 
+$colorLightOrange:#f8d7da !default; 
+$colorDarkOrange:#8b3e46 !default;
 
 // Base properties to give our website more uniformity
 $base-spacing-unit: 24px !default;
@@ -48,7 +50,7 @@ html{
     padding: 0px;
 
     // Give a default font TODO: change it to poppins
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 
     // Give a default font size
     font-size: $font-normal;

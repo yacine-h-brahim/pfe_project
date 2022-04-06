@@ -36,7 +36,7 @@ a {
 	color: $colorBlue;
 	font-size: $font-small;
 	text-decoration: none;
-    padding-top: $spacing-normal ;
+    padding-top: $spacing-smaller ;
 }
 
 button {
@@ -146,12 +146,15 @@ input {
     border-radius: 20%;
   }
   img.logo {
-	text-align: left;
-    width: 10%;
-	border-style: none;
+	
+	position: absolute;
+	left: 80%;  
+	height: 10%;
+    top: 5%;
   }
   .logo{
-	  text-align: left;
+	
+	  left: 100%;
   }
   
   input[type="checkbox"] {
