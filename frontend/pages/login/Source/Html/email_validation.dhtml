@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="header">
-         <img src="C:\Users\dell\Desktop\project1\S2_PFE_project\frontend\pages\shared\images\logo2.png" alt="this logo ">
+         <img src="../../shared/images/logo2.png" alt="this logo ">
         </div>
         <div class="content">
            <h1>Réinitialiser le mot de passe</h1>
@@ -24,9 +24,9 @@
             </form>
         </div>
 
-        <div class="v45_20"><a href="login.html"><img src="C:\Users\dell\Desktop\project1\S2_PFE_project\frontend\pages\shared\images\arrow.png" alt="click here to get back to login_page"></a></div>
+        <div class="v45_20"><a href="login.html"><img src="../../shared/images/arrow.png" alt="click here to get back to login_page"></a></div>
         <span class="v45_21">retour à connextion</span>
-        <div class="v45_22"><img src="C:\Users\dell\Desktop\project1\S2_PFE_project\frontend\pages\shared\images\undraw.svg" alt="forgot your password" width="300px" height="150px"></div>
+        <div class="v45_22"><img src="../../shared/images/undraw.svg" alt="forgot your password" width="300px" height="150px"></div>
 
 
 <!--@ include footer @-->

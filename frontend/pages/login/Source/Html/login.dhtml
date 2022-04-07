@@ -6,7 +6,7 @@
 		<div class="form-container log-in-container">
 			<form action="#">
 			   <div class="logo">
- 				<img src="C:\Users\dell\Desktop\project1\S2_PFE_project\frontend\pages\shared\images\logo2.png" alt="Logo picture"  class="logo"/>
+ 				<img src="../../shared/images/logo2.png" alt="Logo picture"  class="logo"/>
 			    </div>
 				 <h1>Connexion</h1>
 				
@@ -37,7 +37,7 @@
 			<div class="overlay">
 				<div class="overlay-panel overlay-right">
 					<h1>Welcome back!</h1>
-                    <img src="C:\Users\dell\Desktop\project1\S2_PFE_project\frontend\pages\shared\images\undraw_login 1.svg" alt="Login picture"  class="login"/>
+                    <img src="../../shared/images/undraw_login 1.svg" alt="Login picture"  class="login"/>
 				</div>
 			</div>
 		</div>
