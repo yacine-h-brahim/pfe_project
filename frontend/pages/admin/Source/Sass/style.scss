@@ -1,8 +1,9 @@
 @import "../../../shared/Sass/base";
+   
 
- 
 // Page styles
 .page-container{
+	
 	// Make the page centered 
 	margin-left: auto;
 	margin-right: auto;
@@ -19,11 +20,27 @@
 		font-weight: 500;
 		font-size: $font-largest;
 		margin-bottom: $spacing-largest;		
-		margin-top: $spacing-normal;
+		margin-top: $spacing-normal; 
 	}
 
 	// Table styles
 	table{
+
+		// Give the table a border and a border radius
+		border: 1px solid $colorGray;
+		border-radius: $spacing-small;
+	
+		// Give the bottom and top rows a border radius so it doesn't overlap the table border radius		
+		tr:first-child th:first-child{
+			border-top-left-radius: $spacing-smaller ;	
+			
+		}
+
+		tr:first-child th:last-child{
+			border-top-right-radius: $spacing-smaller ;	
+			
+		}
+
 		// Make it take full width
 		width: 100%;
 
@@ -35,14 +52,9 @@
 			padding: $spacing-smaller $spacing-small;
 		}
 
-		// Table rows
-		tr:nth-child(even){
-			background-color: $colorGray;
-		}
-
 		// Table header
 		th{
-			background-color: $colorBlue;
+			background-color: $colorGray;
 			color: $colorLight;
 			padding: $spacing-small;
 		}
@@ -54,7 +66,10 @@
 				text-align:left;
 			}
 			td{
-				// Set the maximum width of a table cell
+				// Give it a line bellow to separate it from other rows
+				border-bottom: 1px solid $colorGray;
+		
+				// Set the maximum width of a table cell	
 				max-width: $spacing-largest*7;
 
 				// Stop line break 
@@ -66,10 +81,28 @@
 				
 				// Style the title
 				h4{
+					// Hide text overflow 
+					overflow: hidden;
+					text-overflow: ellipsis;
+				
+					// Set the font size and weight
 					font-size: $font-large;
-					font-weight: 600;
+					font-weight: 500;
 				}
 				font-size: $font-normal;
+			
+				// Style of the accept and reject buttons
+				button{
+					transition: ease-in 200ms;
+					padding: 0px;
+					background-color: transparent;
+					border: none;
+					&:focus, &:hover{
+						color: $colorLightBlue;
+						cursor:  pointer;
+					}
+					font-size: $font-normal;
+				}
 			}
 			
 			// The description
@@ -82,11 +115,13 @@
 			// Nom de l'encadreur
 			:nth-child(2){
 				// Set the maximum width of the name of encadreur
-				max-width: $spacing-largest*2;
+				max-width: $spacing-largest*3;
 			}
 
 			// The green check
 			:nth-child(3){
+				padding-left: $spacing-largest;
+				padding-right:0px ;
 				span{
 					font-weight: 800;
 					margin: $spacing-smaller;
@@ -96,6 +131,7 @@
 
 			// Red x mark
 			:nth-child(4){
+				padding-left:0px;
 				span{
 					font-weight: 800;
 					margin: $spacing-smaller;
@@ -103,84 +139,65 @@
 				}
 			}
 
-			td{
-				// Style of the accept and reject buttons
+			// See more button
+			:nth-child(5){
 				button{
-					transition: ease-in 200ms;
-					padding: $spacing-smaller;
-					background-color: transparent;
-					border: none;
-					&:hover{
-						color: $colorOrange;
-					}
-					font-size: $font-normal;
+					padding:0px $spacing-smaller ;
+					font-family: sans-serif;
+					transform: scale(1,2);
 				}
 			}
-
-
 		}
-
-		// Give the table a border radius		
-		tr:first-child th:first-child{
-			border-top-left-radius: $spacing-smaller ;	
-			
-		}
-
-		tr:first-child th:last-child{
-			border-top-right-radius: $spacing-smaller ;	
-			
-		}
+		
 
 	}
-}
-
-
-
-// Popup box
-.popup-container{
-	// Dark background for the whole page
-	background-color: rgba($colorDark,0.3);
-	height: 100vh;
-	margin-top: -$spacing-largest;
-	width: 100%;
-	display: flex;
-	z-index: 2;
-	justify-content: center;	
-	opacity: 0;
-	pointer-events: none;
-	position: fixed;
+	.ajouterE{
+		   text-align: right;
+		}
+		button.AjouterE{
+		    // Animation properties
+		    transition: ease-in 200ms;
+		
+		    // Button properties
+		    background-color: $colorLight;
+		    border: 2px solid $colorLightBlue;
+		    color: $colorLightBlue;
+		    padding: $spacing-smaller $spacing-large;
+		    margin: $spacing-small $spacing-normal;
+		    border-radius: $spacing-small;
+		    display: inline-block;
+		   
+		    // Hover properties
+		    &:hover{
+		        // Animate the button on hover
+		        //         name        duration persistent delay
+		        animation: neon-border 0.3s     forwards   0.5s, color-text 0.2s forwards;
+		    }
+		
+		}
+		
+		button.importer{
+		    // Animation properties
+		    transition: ease-in 200ms;
+		
+		    // Button properties
+		    background-color: $colorBlue;
+		    border: 2px solid $colorBlue;
+		    color: $colorLight;
+		    padding: $spacing-smaller $spacing-large;
+		    margin: $spacing-small $spacing-normal;
+		    border-radius: $spacing-small;
+		    display: inline-block;
+		   
+		    // Hover properties
+		    &:hover{
+		        // Animate the button on hover
+		        //         name        duration persistent delay
+		        animation: neon-border 0.3s     forwards   0.5s, color-text 0.2s forwards;
+		    }
+		
+			
+		}
 	
-	// Content of the popup box
-	> div{
-		align-self: center;
-		background-color: $colorLight;		
-		height: $spacing-largest * 8;
-		width: $spacing-largest *12;
-		border-radius: $spacing-small;
-		display: flex;
-		justify-content: center;
-	}
 }
-
-
-
-// The next couple classes are just for test they might get modified in the futur
-.appear{
-	opacity: 1;
-	pointer-events: all;
-
-}
-
-.close{
-	align-self: center;
-	background-color: $colorOrange;
-	padding:$spacing-normal $spacing-large;
-	color: $colorLight;
-	border-radius: $spacing-normal;
-	border: none;
-
-}
-
-
-
 

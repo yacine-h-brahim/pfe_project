@@ -4,9 +4,12 @@
         <meta charset="utf-8">
         <title>Title</title>
         <link href="./Assets/Css/style.css" rel="stylesheet" type="text/css" />
+        <link href="./Assets/Css/top-bar.css" rel="stylesheet" type="text/css" />
+        <link href="./Assets/Css/popup.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="Assets/Js/base.js"></script>
         <script type="text/javascript" src="Assets/Js/popup.js"></script>
-        <link href="./Assets/Css/top-bar.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="Assets/Js/loadData.js"></script>
+        <script src="https://kit.fontawesome.com/9c22241202.js" crossorigin="anonymous"></script>
     </head>
     <nav class="top-bar">
         <ul>
@@ -36,104 +39,47 @@
         </ul>
     </nav>
 
-    <body>
 
-<div class="popup-container">
-    <div>
-        <button class="close">close popup</button>
+    <!-- The popup that will contain different things depending on the page, and use -->
+    <div class="popup-container">
+       <!-- The content of the popup will be inside this div -->
+        <div>
+
+            <button class="close">close popup</button>
+
+            <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima suscipit consequuntur 
+                amet aliquam repellat dignissimos ex, ducimus, quasi molestias ut soluta praesentium magni ipsam dicta
+                 atque cum quos quaerat. Placeat!</span>
+            <span class="block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni nostrum facilis aut aspernatur cumque. 
+                Voluptates, magnam libero! Fugiat 
+                esse voluptates aliquid voluptatem, possimus, ut quibusdam error corrupti consequuntur tempore eum debitis maxime. Similique 
+                iure porro unde! Accusantium, ullam odit. Eaque, a suscipit. Provident, accusamus sunt vitae minus est doloremque rerum?</span>
+            <span class="block">the text here is for test</span>
+            <span class="block">the text here is for test</span>
+            <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis asperiores ea facilis voluptatem modi sunt cum. Similique, delectus quasi! Non, eaque! A hic similique facilis veniam error, et pariatur laboriosam id repellat maiores iste aliquam aliquid, enim neque, ea alias fuga adipisci quibusdam delectus? Voluptatem nulla ipsum laboriosam consequatur. Saepe facere illum tenetur sit dolores explicabo natus atque doloremque, rem quos vel. Nostrum dolores voluptatum beatae rerum repudiandae, quos id est, sunt ipsam nobis ullam voluptatibus dolorem, maiores deserunt? Autem praesentium tempora minima libero id suscipit totam impedit qui quibusdam ea nulla, cum, veniam repellendus, hic reiciendis! Optio, sed.</span>
+            <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis asperiores ea facilis voluptatem modi sunt cum. Similique, delectus quasi! Non, eaque! A hic similique facilis veniam error, et pariatur laboriosam id repellat maiores iste aliquam aliquid, enim neque, ea alias fuga adipisci quibusdam delectus? Voluptatem nulla ipsum laboriosam consequatur. Saepe facere illum tenetur sit dolores explicabo natus atque doloremque, rem quos vel. Nostrum dolores voluptatum beatae rerum repudiandae, quos id est, sunt ipsam nobis ullam voluptatibus dolorem, maiores deserunt? Autem praesentium tempora minima libero id suscipit totam impedit qui quibusdam ea nulla, cum, veniam repellendus, hic reiciendis! Optio, sed.</span>
+            <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis asperiores ea facilis voluptatem modi sunt cum. Similique, delectus quasi! Non, eaque! A hic similique facilis veniam error, et pariatur laboriosam id repellat maiores iste aliquam aliquid, enim neque, ea alias fuga adipisci quibusdam delectus? Voluptatem nulla ipsum laboriosam consequatur. Saepe facere illum tenetur sit dolores explicabo natus atque doloremque, rem quos vel. Nostrum dolores voluptatum beatae rerum repudiandae, quos id est, sunt ipsam nobis ullam voluptatibus dolorem, maiores deserunt? Autem praesentium tempora minima libero id suscipit totam impedit qui quibusdam ea nulla, cum, veniam repellendus, hic reiciendis! Optio, sed.</span>
+        </div>
+    
     </div>
-</div>
+
+
+
+    <body>
 
 <div class="page-container">
 <h1>page de validation de themes</h1>
-
-<table>
-    <tr>
+<!-- The javascript doesn't work if i leave a space or new line between the <table> and the <tr>,
+    that is stupid -->
+<table id="tabValiderThemes"><tr>
         <th>titre et description</th>
         <th>encadreur</th>
         <th>accepter</th>
         <th>rejeter</th>
         <th>plus</th>
     </tr>
-    
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
-    </tr>
-    
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
-    </tr>
-    
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
-    </tr>
-    
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
-    </tr>
-    
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
-    </tr>
-    
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
-    </tr>
-    
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
-    </tr>
-    
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
-    </tr>
-    
-    <tr>
-        <td><h4>titre</h4><span>une petite description sur ce projet qui va parter sur des chose que nous ne connaissons pas</span></td>
-        <td>mohammed, ali</td>
-        <td><button >accepter<span>&check;</span></button></td>
-        <td><button >rejeter<span>x</span></button></td>
-        <td><button>plus</button></td>
-    </tr>    
 </div>
-
-
-
 </table>
-
-
 
 
     </body>
