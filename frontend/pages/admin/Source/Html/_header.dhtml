@@ -40,28 +40,6 @@
 
 
     <!-- The popup that will contain different things depending on the page, and use -->
-    <div class="popup-container">
-       <!-- The content of the popup will be inside this div -->
-        <div>
-
-            <button class="close">close popup</button>
-
-            <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima suscipit consequuntur 
-                amet aliquam repellat dignissimos ex, ducimus, quasi molestias ut soluta praesentium magni ipsam dicta
-                 atque cum quos quaerat. Placeat!</span>
-            <span class="block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni nostrum facilis aut aspernatur cumque. 
-                Voluptates, magnam libero! Fugiat 
-                esse voluptates aliquid voluptatem, possimus, ut quibusdam error corrupti consequuntur tempore eum debitis maxime. Similique 
-                iure porro unde! Accusantium, ullam odit. Eaque, a suscipit. Provident, accusamus sunt vitae minus est doloremque rerum?</span>
-            <span class="block">the text here is for test</span>
-            <span class="block">the text here is for test</span>
-            <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis asperiores ea facilis voluptatem modi sunt cum. Similique, delectus quasi! Non, eaque! A hic similique facilis veniam error, et pariatur laboriosam id repellat maiores iste aliquam aliquid, enim neque, ea alias fuga adipisci quibusdam delectus? Voluptatem nulla ipsum laboriosam consequatur. Saepe facere illum tenetur sit dolores explicabo natus atque doloremque, rem quos vel. Nostrum dolores voluptatum beatae rerum repudiandae, quos id est, sunt ipsam nobis ullam voluptatibus dolorem, maiores deserunt? Autem praesentium tempora minima libero id suscipit totam impedit qui quibusdam ea nulla, cum, veniam repellendus, hic reiciendis! Optio, sed.</span>
-            <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis asperiores ea facilis voluptatem modi sunt cum. Similique, delectus quasi! Non, eaque! A hic similique facilis veniam error, et pariatur laboriosam id repellat maiores iste aliquam aliquid, enim neque, ea alias fuga adipisci quibusdam delectus? Voluptatem nulla ipsum laboriosam consequatur. Saepe facere illum tenetur sit dolores explicabo natus atque doloremque, rem quos vel. Nostrum dolores voluptatum beatae rerum repudiandae, quos id est, sunt ipsam nobis ullam voluptatibus dolorem, maiores deserunt? Autem praesentium tempora minima libero id suscipit totam impedit qui quibusdam ea nulla, cum, veniam repellendus, hic reiciendis! Optio, sed.</span>
-            <span class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis asperiores ea facilis voluptatem modi sunt cum. Similique, delectus quasi! Non, eaque! A hic similique facilis veniam error, et pariatur laboriosam id repellat maiores iste aliquam aliquid, enim neque, ea alias fuga adipisci quibusdam delectus? Voluptatem nulla ipsum laboriosam consequatur. Saepe facere illum tenetur sit dolores explicabo natus atque doloremque, rem quos vel. Nostrum dolores voluptatum beatae rerum repudiandae, quos id est, sunt ipsam nobis ullam voluptatibus dolorem, maiores deserunt? Autem praesentium tempora minima libero id suscipit totam impedit qui quibusdam ea nulla, cum, veniam repellendus, hic reiciendis! Optio, sed.</span>
-        </div>
+    <div class="popup-container"></div>
     
-    </div>
-
-
-
     <body>

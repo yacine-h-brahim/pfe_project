@@ -24,13 +24,13 @@
 	// Make it start from the top
 	top: 0px;	
 
-	
 	// Content of the popup box
-	> div{
+	> form{
 		// Give the content space left, right and top
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: $spacing-largest;
+		margin-bottom: $spacing-largest;
 		
 		// Give it a white background
 		background-color: $colorLight;
@@ -43,27 +43,119 @@
 		border-radius: $spacing-small;
 
 		// Give it some padding
-		padding: $spacing-large;
+		padding: $spacing-small;
+		
+		// Make the container display grid
+		display: grid;
+		
+		// Give it two rows
+		grid-template-columns: 1fr 1fe;
 
+		// specify the layout of the elements of the popup
+		grid-template-areas: "one one" 
+					  		 "two two"
+							 "three four"
+							 "five five"
+							 "six six"
+							 "seven eight"
+							 "nine ."
+							 ". ten";
 
+		>*:nth-child(1){
+			// Give this element a name in the grid			 
+			grid-area:one; 
+
+			// Make it centered
+			justify-self: center;
+
+			// Specify font size and weight
+			font-size: $font-largest;
+			font-weight: 700;
+		
+		}
+	
+		// Give each child a name so we can specify it's layout
+		>*:nth-child(2){grid-area:two;}
+		>*:nth-child(3){grid-area:three;}
+		>*:nth-child(4){grid-area:four; }
+		>*:nth-child(5){grid-area:five; }
+		>*:nth-child(6){grid-area:six; }
+		>*:nth-child(7){grid-area:seven;}
+		>*:nth-child(8){grid-area:eight;}
+		>*:nth-child(9){grid-area:nine; }
+		>*:nth-child(10){
+			grid-area:ten;
+
+			// the cancel button styles
+			button:nth-child(1)
+			{
+				transition: 0.3s ease-in;
+				color: $colorOrange;
+				border: 2px solid $colorOrange;
+				background-color: $colorLight;
+				padding:$spacing-small $spacing-normal;
+				border-radius: $spacing-small;
+				margin: $spacing-normal;
+				&:hover{
+					box-shadow: 0px 0px $spacing-small $colorOrange;
+				}
+			}
+		
+			
+			// the submit button styles
+			button:nth-child(2)
+			{
+				transition: 0.3s ease-in;
+				color: $colorLightBlue;
+				border: 2px solid $colorLightBlue;
+				background-color: $colorLight;
+				padding:$spacing-small $spacing-normal;
+				border-radius: $spacing-small;
+				margin: $spacing-normal;
+				
+				&:hover{
+					box-shadow: 0px 0px $spacing-small $colorLightBlue;
+				}
+			}
+	}
+
+		// Give a margin to all the elements in the popup
+		>*{
+			margin: $spacing-normal;
+		}
+
+		>div {
+			textarea{
+				resize: none;
+				padding: $spacing-small;
+				background-color: transparent;
+				box-sizing: border-box;
+				width: 100%;
+				border-radius: $spacing-smaller;
+				border: 1px solid $colorGray;
+				box-shadow: 0px 0px 4px $colorGray;
+				background-color: $colorLight;
+				margin-top: $spacing-smaller;
+				
+				&:focus{
+					border: 2px solid $colorLightBlue;
+					box-shadow: 0px 0px 4px $colorLightBlue;
+					outline: none;
+				}
+			}
+			label{
+				font-size: $font-large;
+				font-weight: 500;
+			}
+		}
 	}
 }
 
-
-
-// The next couple classes are just for test they might get modified in the futur
+// This class will make the element appear by removing the opaciy 0, and give it back pointer events
 .appear{
 	opacity: 1;
 	pointer-events: all;
 	position: absolute;
-}
-
-.close{
-	background-color: $colorOrange;
-	padding:$spacing-normal $spacing-large;
-	color: $colorLight;
-	border-radius: $spacing-normal;
-	border: none;
 }
 
 
