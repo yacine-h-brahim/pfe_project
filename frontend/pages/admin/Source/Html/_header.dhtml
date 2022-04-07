@@ -9,6 +9,7 @@
         <script type="text/javascript" src="./Assets/Js/base.js"></script>
         <script type="text/javascript" src="./Assets/Js/popup.js"></script>
         <script type="text/javascript" src="./Assets/Js/loadData.js"></script>
+        <script src="https://kit.fontawesome.com/9c22241202.js" crossorigin="anonymous"></script>
     </head>
     <nav class="top-bar">
         <ul>
@@ -41,5 +42,5 @@
 
     <!-- The popup that will contain different things depending on the page, and use -->
     <div class="popup-container"></div>
-    
+
     <body>
