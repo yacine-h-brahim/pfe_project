@@ -8,10 +8,14 @@
     <div class="page-container">
     <h1>Gestion des comptes des entreprise </h1>
     <div class="ajouterE">
-    <button class="AjouterE"> Ajouter
+     
+    <button class="AjouterE" > Ajouter
+        
         <i class="fa fa-user" style="font-size:10px "></i>
     </button>
-    <button class="importer"> Importer 
+     
+ 
+   <button class="importer"> Importer 
         <i class="fa fa-download" style="font-size:10px "></i>
     </button>
      </div>
@@ -163,8 +167,6 @@
     
     
    </table>
-    
-    
-    
+ 
     
     <!--@ include footer @-->
