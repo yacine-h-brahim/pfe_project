@@ -86,7 +86,7 @@ form {
 	text-align: center;
 }
 input {
-	background-color: $colorGray;
+	background-color: $colorLightGray;
 	border: none;
 	padding: $spacing-small;
 	margin: $spacing-smaller 0;
@@ -135,7 +135,7 @@ form .error-text:before{
 }
 .v45_22{
 	position: absolute;
-	top: 480px;
+	top: 479px;
 	left: 80%;
 	size: 10px;
 	/*transform:rotate(-360deg) ;*/
